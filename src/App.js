@@ -16,7 +16,7 @@ class App extends Component {
             <Layout.Header style={{ padding: '0', position: 'fixed', zIndex: 1, width: '100%' }}>
                 <Row style={{ background: '#f15a29' }}>
                     <Col span={6} offset={1}>
-                        <span><h1 style={{ 'font-size':'xx-large' }}>NO 5 AT 1717</h1></span>
+                        <span><h1 style={{ 'font-size':'xx-large', 'color':'#fff' }}>NO 5 AT 1717</h1></span>
                     </Col>
                     <Col span={16}>
                         <MenuComponent/>

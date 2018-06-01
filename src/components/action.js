@@ -7,6 +7,14 @@ export default class ActionComponent extends Component {
         return (
             <Card title="What Can We Do?" id="action">
                 <p>Please call and write to your local officials and let them know how you feel about this development.</p>
+                <h2 style={{ 'color': '#f15a29' }}>WRITE</h2>
+                <p>When writing, be specific about how this property will negatively impact you. For example, "The increased traffic will put my children in danger when they walk to and from the bus for school in the mornings and afternoons."</p>
+                <p>Sumbit your written comments via email and through physical mail.</p>
+                <h2 style={{ 'color': '#f15a29' }}>CALL</h2>
+                <p>When calling, keep your message short and clear. For example, "I oppose the development at 1717 Central Ave NE. Five stories is too tall."</p>
+                <p>Call every person on the below list everyday. Leave voicemails, leave messages with assistants, make your voice heard.</p>
+                <h2 style={{ 'color': '#f15a29' }}>TEMPLATES & SCRIPTS</h2>
+                <p>We will soon be adding to this site sample scripts of what to write and what to say.</p>
                 <h1>City of Minneapolis Officials</h1>
                 <List
                     grid={{ gutter: 16, column: 3 }}
