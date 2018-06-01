@@ -16,7 +16,7 @@ class App extends Component {
             <Layout.Header style={{ position: 'fixed', zIndex: 1, width: '100%' }}>
                 <Row>
                     <Col span={4}>
-                        <span>NO 5 AT 1717</span>
+                        <h1>NO 5 AT 1717</h1>
                     </Col>
                     <Col span={16}>
                         <MenuComponent/>
