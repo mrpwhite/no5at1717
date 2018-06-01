@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Card } from 'antd';
+import './who-are-we.css';
 
 export default class WhoAreWeComponent extends Component {
     render(){

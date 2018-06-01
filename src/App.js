@@ -13,28 +13,28 @@ class App extends Component {
     return (
       <div style={{'margin-bottom':'500px'}} className="App">
         <Layout>
-            <Layout.Header style={{ position: 'fixed', zIndex: 1, width: '100%' }}>
-                <Row>
-                    <Col span={4}>
-                        <h1>NO 5 AT 1717</h1>
+            <Layout.Header style={{ padding: '0', position: 'fixed', zIndex: 1, width: '100%' }}>
+                <Row style={{ background: '#f15a29' }}>
+                    <Col span={4} offset={1}>
+                        <span><h1>NO 5 AT 1717</h1></span>
                     </Col>
                     <Col span={16}>
                         <MenuComponent/>
                     </Col>
                 </Row>
             </Layout.Header>
-            <Layout.Content style={{ padding: '0 50px', marginTop: 64 }}>
+            <Layout.Content style={{ padding: '0', marginTop: 64 }}>
                 <Row>
-                    <Col style={{'margin-bottom': '20px'}} span={16} offset={4}>
+                    <Col style={{'margin-bottom': '20px'}} span={24}>
                         <WhoAreWeComponent />
                     </Col>
-                    <Col style={{'margin-bottom': '20px'}} span={16} offset={4}>
+                    <Col style={{'margin-bottom': '20px'}} span={24}>
                         <HappeningComponent />
                     </Col>
-                    <Col style={{'margin-bottom': '20px'}} span={16} offset={4}>
+                    <Col style={{'margin-bottom': '20px'}} span={24}>
                         <OppositionComponent />
                     </Col>
-                    <Col style={{'margin-bottom': '20px'}} span={16} offset={4}>
+                    <Col style={{'margin-bottom': '20px'}} span={24}>
                         <ActionComponent />
                     </Col>
                 </Row>

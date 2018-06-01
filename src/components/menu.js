@@ -10,18 +10,19 @@ export default class MenuComponent extends Component {
             <Menu
               onClick={this.handleClick}
               mode="horizontal"
+              style={{ background: '#f15a29' }}
             >
                 <Menu.Item key="whoAreWe">
-                    <a href="#whoAreWe">Who Are We?</a>
+                    <a style={{ color: '#fff' }} href="#whoAreWe">Who Are We?</a>
                 </Menu.Item>
                 <Menu.Item key="happening">
-                    <a href="#happening">What is happening?</a>
+                    <a style={{ color: '#fff' }} href="#happening">What Is Happening?</a>
                 </Menu.Item>
                 <Menu.Item key="opposition">
-                    <a href="#opposition">Why are we opposed?</a>
+                    <a style={{ color: '#fff' }} href="#opposition">Why Are We Opposed?</a>
                 </Menu.Item>
                 <Menu.Item key="action">
-                    <a href="#action">What can we do?</a>
+                    <a style={{ color: '#fff' }} href="#action">What Can We Do?</a>
                 </Menu.Item>
             </Menu>
         )

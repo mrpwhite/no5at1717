@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-
 import { Card } from 'antd';
+import './happening.css';
 
 export default class HappeningComponent extends Component {
     render(){

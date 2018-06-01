@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Card, List } from 'antd';
+import './action.css';
 
 export default class ActionComponent extends Component {
     render(){
@@ -12,7 +13,7 @@ export default class ActionComponent extends Component {
                     dataSource={cityData}
                     renderItem={item => (
                         <List.Item>
-                            <Card title={item.name}>
+                            <Card className="hoodCard" title={item.name}>
                                 <span style={{"display":"block"}}>{item.position}</span>
                                 <span style={{"display":"block"}}>&nbsp;</span>
                                 <span style={{"display":"block"}}>{item.phone_number}</span>
@@ -32,7 +33,7 @@ export default class ActionComponent extends Component {
                     dataSource={nepnaData}
                     renderItem={item => (
                         <List.Item>
-                            <Card title={item.name}>
+                            <Card className="hoodCard" title={item.name}>
                                 <span style={{"display":"block"}}>{item.position}</span>
                                 <span style={{"display":"block"}}>&nbsp;</span>
                                 <span style={{"display":"block"}}>{item.phone_number}</span>
@@ -52,7 +53,7 @@ export default class ActionComponent extends Component {
                     dataSource={wpnaData}
                     renderItem={item => (
                         <List.Item>
-                            <Card title={item.name}>
+                            <Card className="hoodCard" title={item.name}>
                                 <span style={{"display":"block"}}>{item.position}</span>
                                 <span style={{"display":"block"}}>&nbsp;</span>
                                 <span style={{"display":"block"}}>{item.phone_number}</span>
@@ -72,7 +73,7 @@ export default class ActionComponent extends Component {
                     dataSource={lpnaData}
                     renderItem={item => (
                         <List.Item>
-                            <Card title={item.name}>
+                            <Card className="hoodCard" title={item.name}>
                                 <span style={{"display":"block"}}>{item.position}</span>
                                 <span style={{"display":"block"}}>&nbsp;</span>
                                 <span style={{"display":"block"}}>{item.phone_number}</span>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-
 import { List, Card, Col, Row } from 'antd';
+import './opposition.css';
 
 const list1 = [
     "Building is too tall- takes away sun, decreases privacy",
@@ -19,8 +19,7 @@ const list2 = [
 export default class OppositionComponent extends Component {
     render(){
         return (
-          <div id="opposition">
-            <Card title="Why We Are Opposed">
+            <Card title="Why We Are Opposed" id="opposition">
                 <Row>
                     <Col span={11}>
                         <List
@@ -48,7 +47,6 @@ export default class OppositionComponent extends Component {
                     </Col>
                 </Row>
             </Card>
-          </div>
         )
     }
 }
