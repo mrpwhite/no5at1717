@@ -13,17 +13,17 @@ class App extends Component {
     return (
       <div style={{'margin-bottom':'500px'}} className="App">
         <Layout>
-            <Layout.Header style={{ padding: '0', position: 'fixed', zIndex: 1, width: '100%' }}>
+            <Layout.Header style={{ padding: '0', top:'0', position: 'fixed', zIndex: 1, width: '100%' }}>
                 <Row style={{ background: '#f15a29' }}>
-                    <Col span={6} offset={1}>
+                    <Col lg={6} md={6} sm={0} xs={0} offset={1}>
                         <span><h1 style={{ 'font-size':'xx-large', 'color':'#fff' }}>NO 5 AT 1717</h1></span>
                     </Col>
-                    <Col span={16}>
+                    <Col lg={17} md={17} sm={0} xs={0}>
                         <MenuComponent/>
                     </Col>
                 </Row>
             </Layout.Header>
-            <Layout.Content style={{ padding: '0', marginTop: 64 }}>
+            <Layout.Content style={{ padding: '0'}}>
                 <Row>
                     <Col style={{'margin-bottom': '50px'}} span={24}>
                         <WhoAreWeComponent />

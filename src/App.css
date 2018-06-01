@@ -1,6 +1,9 @@
 @import '~antd/dist/antd.css';
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900');
 
+body{
+  margin-top: 80px;
+}
 .App {
   text-align: left;
 }

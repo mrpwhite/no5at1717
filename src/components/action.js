@@ -17,7 +17,7 @@ export default class ActionComponent extends Component {
                 <p>We will soon be adding to this site sample scripts of what to write and what to say.</p>
                 <h1>City of Minneapolis Officials</h1>
                 <List
-                    grid={{ gutter: 16, column: 3 }}
+                    grid={{ gutter: 16, xs:1, sm:1, md:2, lg:3 }}
                     dataSource={cityData}
                     renderItem={item => (
                         <List.Item>
@@ -37,7 +37,7 @@ export default class ActionComponent extends Component {
                 />
                 <h1>Northeast Park Neighborhood Association</h1>
                 <List
-                    grid={{ gutter: 16, column: 3 }}
+                    grid={{ gutter: 16, xs:1, sm:1, md:2, lg:3 }}
                     dataSource={nepnaData}
                     renderItem={item => (
                         <List.Item>
@@ -57,7 +57,7 @@ export default class ActionComponent extends Component {
                 />
                 <h1>Windom Park Neighborhood Association</h1>
                 <List
-                    grid={{ gutter: 16, column: 3 }}
+                    grid={{ gutter: 16, xs:1, sm:1, md:2, lg:3 }}
                     dataSource={wpnaData}
                     renderItem={item => (
                         <List.Item>
@@ -77,7 +77,7 @@ export default class ActionComponent extends Component {
                 />
                 <h1>Logan Park Neighborhood Association</h1>
                 <List
-                    grid={{ gutter: 16, column: 3 }}
+                    grid={{ gutter: 16, xs:1, sm:1, md:2, lg:3 }}
                     dataSource={lpnaData}
                     renderItem={item => (
                         <List.Item>

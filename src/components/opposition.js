@@ -23,7 +23,7 @@ export default class OppositionComponent extends Component {
                 <p>As neighbors to this property, we oppose the current plan for this site.  We disagree with the physical foot print on the neighborhood, the proposed height of the building, the design, the lack of green space, the lack of parking, and the number of units proposed.</p>
                 <p>This property does not meet the needs for affordable housing in our neighborhood.  This property height does not conform to the more recent development along Central and in the neighborhood directly.  This development plan does not fit with the pedestrian bike zone recently created and supported by the city.  The increased traffic will reduce the safety for our children, many who have school bus stops on the block for a variety of schools, public, private, and charter.  The sound and light pollution ultimately created by the magnitude of this property will negatively impact our quality of living and reduce our privacy.</p>
                 <Row style= {{ 'margin-bottom': '14px' }}>
-                    <Col span={11}>
+                    <Col lg={11} md={11} sm={24} xs={24}>
                         <List
                             bordered
                             dataSource={list1}
@@ -35,7 +35,9 @@ export default class OppositionComponent extends Component {
                         >
                         </List>
                     </Col>
-                    <Col offset={2} span={11}>
+                    <Col lg={2} md={2}>
+                    </Col>
+                    <Col lg={11} md={11} sm={24} xs={24}>
                         <List
                             bordered
                             dataSource={list2}
