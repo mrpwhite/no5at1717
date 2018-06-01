@@ -1,0 +1,17 @@
+#action {
+  	border-color: #262262;
+}
+
+#action .ant-card-head-title{
+	color: #262262;
+}
+
+#action .hoodCard .ant-card-head-title{
+	color: #f15a29;
+	font-size: large;
+}
+
+#action .hoodCard{
+	min-height: 307px;
+	border-color: #f15a29;
+}
