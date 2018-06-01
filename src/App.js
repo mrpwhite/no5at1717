@@ -15,8 +15,8 @@ class App extends Component {
         <Layout>
             <Layout.Header style={{ padding: '0', position: 'fixed', zIndex: 1, width: '100%' }}>
                 <Row style={{ background: '#f15a29' }}>
-                    <Col span={4} offset={1}>
-                        <span><h1>NO 5 AT 1717</h1></span>
+                    <Col span={6} offset={1}>
+                        <span><h1 style={{ 'font-size':'xx-large' }}>NO 5 AT 1717</h1></span>
                     </Col>
                     <Col span={16}>
                         <MenuComponent/>
@@ -25,16 +25,16 @@ class App extends Component {
             </Layout.Header>
             <Layout.Content style={{ padding: '0', marginTop: 64 }}>
                 <Row>
-                    <Col style={{'margin-bottom': '20px'}} span={24}>
+                    <Col style={{'margin-bottom': '50px'}} span={24}>
                         <WhoAreWeComponent />
                     </Col>
-                    <Col style={{'margin-bottom': '20px'}} span={24}>
+                    <Col style={{'margin-bottom': '50px'}} span={24}>
                         <HappeningComponent />
                     </Col>
-                    <Col style={{'margin-bottom': '20px'}} span={24}>
+                    <Col style={{'margin-bottom': '50px'}} span={24}>
                         <OppositionComponent />
                     </Col>
-                    <Col style={{'margin-bottom': '20px'}} span={24}>
+                    <Col style={{'margin-bottom': '50px'}} span={24}>
                         <ActionComponent />
                     </Col>
                 </Row>

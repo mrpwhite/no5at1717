@@ -20,7 +20,7 @@ export default class OppositionComponent extends Component {
     render(){
         return (
             <Card title="Why We Are Opposed" id="opposition">
-                <Row>
+                <Row style= {{ 'margin-bottom': '14px' }}>
                     <Col span={11}>
                         <List
                             bordered
